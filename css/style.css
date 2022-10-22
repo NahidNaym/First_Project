@@ -74,12 +74,12 @@ margin-left: 40px;
 .header-ul li a {
     text-decoration: none;
 }
-.header-ul li:nth-of-type(n+2) {
-    content: ""; 
-    text-decoration: underline solid red;
-    text-decoration-color:  blue ;
-
-}
+.header-ul li:nth-of-type(n+2):hover a{
+    text-decoration: underline rgb(105, 7, 89) solid  3px;
+    }
+    .header-ul li:first-child a{
+                    text-decoration: underline solid blue;
+     }
 .section-title:hover {
     letter-spacing: 5px;
     font-size: 50px;
@@ -470,10 +470,10 @@ margin: 50px 40px 30px 40px;
     }
     /* ******************************** */
 .statistics-section {
-    width: 100%;
+    width: 100vw;
     height: 400px;
     position: relative;
-    background-image: url(../Images/ملاهي.jpg); 
+    background-image: url(../Images/eee.jpeg); 
     background-attachment: fixed;
     background-size: cover;
 }
@@ -514,7 +514,7 @@ z-index:3;
 /* *************************pricing****************** */
 .pricing-section {
     width: 100vw;;
-    height: 80vh;
+    /* height: 80vh; */
     text-align: center;
     text-transform: upercase;
 }
@@ -619,7 +619,7 @@ border: 2px solid blueviolet;
     width: 100%;
     height: 400px;
     position: relative;
-    background-image: url(../Images/back.jpg); 
+    background-image: url(../Images/ddd.jpg); 
     background-attachment: fixed;
     background-size: cover;
 }
@@ -738,7 +738,6 @@ z-index:3;
     right: 0;
     bottom: 0;
     background-color: rgba(100, 19, 19, 0.6);
-    /* visibility: hidden; */
     transition: .5s;
     opacity: 0;
 }
