@@ -75,7 +75,7 @@ margin-left: 40px;
     text-decoration: none;
 }
 .header-ul li:nth-of-type(n+2):hover a{
-    text-decoration: underline rgb(105, 7, 89) solid  3px;
+    text-decoration: underline rgb(182, 102, 169) solid  3px;
     }
     .header-ul li:first-child a{
                     text-decoration: underline solid blue;
@@ -95,14 +95,12 @@ margin-left: 40px;
 .overlay {
     width: 100%;
     height: 103%;
-    /* opacity: .6; */
     position: absolute;
     top: 0;
     left: 0;
     background-color: rgba(250, 69, 196,.6);
 }
 .home-content {
-    /* background-color: aliceblue; */
     width: 80%;
     position: absolute;
     top: 50%;
@@ -117,7 +115,6 @@ margin-left: 40px;
     font-weight: 800;
     word-spacing: 5px;
     text-transform: uppercase;
-    /* text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue; */
     transition: 1s;
     z-index: 8;
 }
@@ -195,15 +192,13 @@ background-color: rgba(12, 12, 233,.5);
 .welcome-content:hover .i1 {
     position: absolute;
     text-align: center;
-    /* padding: 15px auto; */
     color: blueviolet;
     z-index: 4;
 }
 .welcome-title {
     color: rgb(51, 5, 5);
     font-size: 35px;
-    /* background-color: aqua; */
-}
+    }
 .welcome-content:hover .welcome-title {
     position: absolute;
     text-align: center;
@@ -315,7 +310,7 @@ color: blue;
         z-index: 2;
         width:  100%;
         height: 100%;
-        border: 20px  rgb(0,0,0) solid;
+        border: 2px  rgb(0,0,0) solid;
         background-color: rgba(0,0,0, .8);  
     }
     /* ************offer section********************** */
@@ -556,7 +551,7 @@ z-index:3;
     width: 90px;
     height: 90px;
     border-radius: 50%;
-    border: 5px solid rgb(175, 156, 192);
+    border: 2px solid rgb(175, 156, 192);
     margin: 15px auto 0px;
     padding: 5px;
     background-color: white;
